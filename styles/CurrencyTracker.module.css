@@ -1,0 +1,93 @@
+/* Container styling */
+.container {
+  padding: 1.5rem; /* p-6 */
+  background-color: #eeeeee; /* bg-[#EEEEEE] */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  max-width: 28rem; /* max-w-md */
+  margin: 0 auto; /* mx-auto */
+}
+
+/* Title styling */
+.title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 800; /* font-extrabold */
+  margin-bottom: 1.5rem; /* mb-6 */
+  text-align: center; /* text-center */
+  color: #201e43; /* text-[#201E43] */
+  line-height: 1.2; /* leading-tight */
+}
+
+/* Label styling */
+.label {
+  display: block;
+  color: #134b70; /* text-[#134B70] */
+  margin-bottom: 0.5rem; /* mb-2 */
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 500; /* font-medium */
+}
+
+/* Select and input styling */
+.select,
+.input {
+  margin-top: 0.25rem; /* mt-1 */
+  display: block;
+  width: 100%; /* w-full */
+  padding: 0.75rem; /* p-3 */
+  border: 1px solid #508c9b; /* border-[#508C9B] */
+  border-radius: 0.375rem; /* rounded-md */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* transition */
+}
+
+.select:focus,
+.input:focus {
+  outline: none;
+  border-color: #134b70; /* focus:border-[#134B70] */
+  box-shadow: 0 0 0 2px rgba(19, 75, 112, 0.3); /* focus:ring-[#134B70] */
+}
+
+/* Button styling */
+.button {
+  margin-top: 1rem; /* mt-4 */
+  display: block;
+  width: 100%; /* w-full */
+  padding: 0.75rem; /* p-3 */
+  border: 1px solid transparent; /* border-transparent */
+  border-radius: 0.375rem; /* rounded-md */
+  background-color: #134b70; /* bg-[#134B70] */
+  color: white; /* text-white */
+  font-weight: 600; /* font-semibold */
+  font-size: 1.125rem; /* text-lg */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* transition */
+}
+
+.button:hover {
+  background-color: #0d3b66; /* hover:bg-[#0D3B66] */
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(13, 59, 102, 0.3); /* focus:ring-[#0D3B66] */
+}
+
+/* Exchange rate and converted amount styling */
+.exchangeRate {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+  color: #201e43; /* text-[#201E43] */
+  margin-top: 1rem; /* mt-4 */
+}
+
+.convertedAmount {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  color: #201e43; /* text-[#201E43] */
+  margin-top: 1.5rem; /* mt-6 */
+}
+
+/* Additional styling for layout and spacing */
+.inputGroup {
+  margin-bottom: 1.5rem; /* mb-6 */
+}
